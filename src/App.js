@@ -8,9 +8,9 @@ function App() {
           hello world
           <h1>Welcome </h1>
           <h1>it is testing</h1>
-       
+          <div style="background-color:blue;">
               About Me
-
+          </div>
     </div>
   );
 }
