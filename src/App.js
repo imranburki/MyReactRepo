@@ -1,17 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import MyFunction from './Testing.js';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-          hello world
-          <h1>Welcome </h1>
-          <h1>it is testing</h1>
-          <div>
-              About Me
+      <div className="App">
+          <MyFunction LineOne="one" LineTwo="Two" />
+          <MyFunction LineOne="Halwa" LineTwo="Four" />
+          <MyFunction LineOne="Seven" LineTwo="Six" />
           </div>
-    </div>
   );
 }
 
